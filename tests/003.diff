@@ -1,0 +1,6 @@
+001+ Fatal error: Uncaught Error: Call to undefined function morse_test2() in /home/software/php-8.0.7/ext/morse/tests/003.php:2
+002+ Stack trace:
+001- string(11) "Hello World"
+002- string(9) "Hello PHP"
+003+ #0 {main}
+004+   thrown in /home/software/php-8.0.7/ext/morse/tests/003.php on line 2

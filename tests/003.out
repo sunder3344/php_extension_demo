@@ -1,0 +1,4 @@
+Fatal error: Uncaught Error: Call to undefined function morse_test2() in /home/software/php-8.0.7/ext/morse/tests/003.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/software/php-8.0.7/ext/morse/tests/003.php on line 2

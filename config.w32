@@ -1,0 +1,7 @@
+ARG_ENABLE('morse', 'morse support', 'no');
+
+if (PHP_MORSE != 'no') {
+	AC_DEFINE('HAVE_MORSE', 1, 'morse support enabled');
+
+	EXTENSION('morse', 'morse.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
